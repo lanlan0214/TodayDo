@@ -1,0 +1,161 @@
+.container {
+    position: relative;
+    padding-right: 192px;
+    padding-left: 192px;
+    margin-top: 25rem;
+    height: 1800px;
+}
+
+.text {
+    color: rgb(231, 116, 66);
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 163.2px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.text1 {
+    color: rgb(36, 36, 36);
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 0px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+
+.Group878 {
+    height: 11%;
+    width: 63%;
+    position: absolute;
+    top: 12%;
+    left: 18%;
+}
+
+.新建任務 {
+    height: 30%;
+    width: 60%;
+    position: absolute;
+    top: 12%;
+    left: 39%;
+}
+
+
+.lion2 {
+    display: flex;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: -7%;
+    z-index: -1;
+}
+
+
+.text2 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: rgb(36, 36, 36);
+    font-size: 48px;
+    margin-top: 96px;
+    line-height: 76.8px;
+    font-weight: bold;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.org {
+    color: rgb(231, 116, 66);
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.text3 {
+    color: rgb(36, 36, 36);
+    font-size: 34.56px;
+    margin-top: 28.8px;
+    font-family: "Noto Sans TC", sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+
+.Group882 {
+    height: 45%;
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    right: 3%;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        height: 500px;
+        padding-left: 36px;
+        padding-right: 36px;
+        margin-top: 16rem;
+    }
+
+    .text {
+        font-size: 22px;
+        line-height: 30px;
+        white-space: pre-wrap;
+    }
+
+    .text1 {
+        font-size: 22px;
+        margin-left: 11px;
+    }
+
+    .Group878 {
+        height: 12%;
+        width: 78%;
+        position: absolute;
+        top: 17%;
+        left: 38%;
+        opacity: .5;
+    }
+
+    .新建任務 {
+        height: 35%;
+        width: 74%;
+        position: absolute;
+        top: 30%;
+        left: 14%;
+    }
+
+    .lion2 {
+        display: flex;
+        height: 60%;
+        width: 70%;
+        position: absolute;
+        top: 65%;
+        left: 18%;
+        z-index: 1;
+    }
+
+    .text2 {
+        font-size: 22px;
+        margin-top: 14px;
+        line-height: 30px;
+        top: 135%;
+        left: 13%;
+        white-space: pre-wrap;
+    }
+
+
+
+    .text3 {
+        font-size: 12px;
+        margin-top: 16px;
+        top: 150%;
+        left: 13%;
+    }
+
+    .Group882 {
+        height: 60%;
+        width: 90%;
+        position: absolute;
+        top: 155%;
+        right: 5%;
+    }
+
+}

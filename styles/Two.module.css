@@ -1,0 +1,128 @@
+.container {
+    position: relative;
+    padding-right: 192px;
+    padding-left: 192px;
+    margin-top: 30rem;
+    height: 1400px;
+}
+
+.text1 {
+    color: rgb(231, 116, 66);
+    font-weight: 800;
+    font-size: 67.2px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.text2 {
+    color: rgb(36, 36, 36);
+    font-size: 30.72px;
+    margin-top: 28.8px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.text3 {
+    color: rgb(36, 36, 36);
+    font-size: 30.72px;
+    margin-top: 11.52px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.text4 {
+    color: rgb(36, 36, 36);
+    font-size: 30.72px;
+    margin-top: 11.52px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.Group875 {
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    top: 26%;
+    left: 14%;
+}
+
+.Group874 {
+    width: 50%;
+    height: 75%;
+    position: absolute;
+    top: 3%;
+    right: 8%;
+}
+
+.Vector36 {
+    width: 42%;
+    height: 45.5%;
+    position: absolute;
+    bottom: 11%;
+    right: -3%;
+    z-index: -1;
+}
+
+.Ellipse47 {
+    width: 6%;
+    height: 8.2%;
+    position: absolute;
+    top: 90%;
+    right: 6%;
+}
+
+@media screen and (max-width: 480px){
+    .container {
+        margin-top: 6rem;
+        padding-left: 37.5px;
+        padding-right: 37.5px;
+        height: 600px;
+    }
+
+    .text1 {
+        font-size: 28px;
+    }
+
+    .text2 {
+        font-size: 15px;
+        margin-top: 11px;
+    }
+
+    .text3 {
+        font-size: 15px;
+        margin-top: 11px;
+    }
+
+    .text4 {
+        font-size: 15px;
+        margin-top: 11px;
+    }
+
+    .Group875 {
+        width: 72%;
+        height: 50%;
+        top: 5%;
+        left: 78%;
+        position: absolute;
+    }
+
+    .Group874 {
+        width: 85%;
+        height: 58%;
+        position: absolute;
+        top: 27%;
+        left: 5%;
+    }
+
+    .Vector36 {
+        width: 65%;
+        height: 32%;
+        position: absolute;
+        top: 58%;
+        right: -5%;
+    }
+
+    .Ellipse47 {
+        width: 10%;
+        height: 6.2%;
+        position: absolute;
+        top: 90%;
+        right: -2%;
+    }
+}

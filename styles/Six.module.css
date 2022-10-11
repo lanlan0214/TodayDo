@@ -1,0 +1,116 @@
+.container {
+    position: relative;
+    flex-direction: row;
+    height: 864px;
+    padding-right: 211.2px;
+    padding-left: 211.2px;
+}
+
+.lion4 {
+    height: 85%;
+    width: 45%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.rightcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 13%;
+    top: 13%;
+}
+
+.text {
+    color: rgb(231, 116, 66);
+    font-size: 96px;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+}
+
+.text1 {
+    color: rgb(231, 116, 66);
+    font-size: 67.2px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: Montserrat, sans-serif;
+}
+
+.text2 {
+    color: rgb(36, 36, 36);
+    font-size: 38.4px;
+    font-weight: 800;
+    margin-top: 76.8px;
+    margin-bottom: 76.8px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.app {
+    height: 7.5%;
+    width: 12%;
+    position: absolute;
+    top: 60%;
+    right: 30%;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.google {
+    height: 7.5%;
+    width: 12%;
+    position: absolute;
+    top: 60%;
+    right: 17%;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+@media screen and (max-width : 480px) {
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .lion4 {
+        height: 35%;
+        width: 50%;
+        top: 50%;
+        right: 28%;
+    }
+
+    .rightcard {
+        position: relative;
+        right: 0%;
+    }
+
+    .text {
+        font-size: 48px;
+    }
+
+    .text1 {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .text2 {
+        font-size: 17px;
+        margin-top: 37px;
+    }
+
+    .app {
+        height: 5.6%;
+        width: 45%;
+        top: 36%;
+        right: 28%;
+    }
+
+    .google {
+        height: 5.6%;
+        width: 45%;
+        top: 43%;
+        right: 28%;
+    }
+}

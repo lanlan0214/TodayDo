@@ -1,0 +1,132 @@
+.container {
+    position: relative;
+    padding-bottom: 249.6px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding-right: 192px;
+    padding-left: 192px;
+    padding-top: 76.8px;
+    width: 70%;
+    align-items: flex-start;
+}
+
+
+.text1 {
+    width: 50%;
+    padding-right: 76.8px;
+    opacity: .3;
+}
+
+.text2 {
+    width: 50%;
+    padding-left: 76.8px;
+    opacity: .3;
+}
+
+.text1:hover {
+    opacity: 1;
+}
+
+.text2:hover {
+    opacity: 1;
+}
+
+.cardtext1 {
+    color: rgb(231, 116, 66);
+    font-size: 67.2px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+}
+
+.cardtext12 {
+    color: rgb(36, 36, 36);
+    font-size: 32.64px;
+    padding-top: 19.2px;
+    line-height: 48px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+
+
+
+.TodayDo {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 65%;
+    right: 40%;
+}
+
+
+.Memo {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 65%;
+    right: 40%;
+}
+
+.Group51 {
+    width: 32%;
+    height: 100%;
+    position: absolute;
+    top: 65%;
+    right: 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {}
+
+    .card {
+        padding-right: 45px;
+        padding-left: 45px;
+        padding-top: 22px;
+        width: 100%;
+    }
+
+    .text1 {
+        padding-right: 3px;
+    }
+
+    .text2 {
+        padding-left: 3px;
+    }
+
+    .cardtext1 {
+        font-size: 24px;
+    }
+
+    .cardtext12 {
+        font-size: 14px;
+        padding-top: 7.5px;
+        line-height: 19.5px
+    }
+
+    .TodayDo {
+        width: 80%;
+        height: 30%;
+        position: absolute;
+        top: 40%;
+        right: 10%;
+    }
+
+    .Memo {
+        width: 80%;
+        height: 30%;
+        position: absolute;
+        top: 40%;
+        right: 10%;
+    }
+
+    .Group51 {
+        width: 70%;
+        height: 70%;
+        position: absolute;
+        top: 90%;
+        right: 0%;
+    }
+}

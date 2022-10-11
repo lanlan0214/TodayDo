@@ -1,0 +1,305 @@
+.container {
+    position: relative;
+    padding-bottom: 192px;
+    margin-top: 13rem;
+}
+
+
+.card {
+    padding-right: 172.8px;
+    padding-left: 172.8px;
+    margin-top: 134.4px;
+    white-space: pre-wrap;
+    /* 上面這個可以空白有效 */
+}
+
+.text {
+    color: rgb(231, 116, 66);
+    font-weight: 800;
+    font-size: 67.2px;
+    text-align: left;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 96px;
+    align-items: flex-start;
+    width: 65%;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 115.2px;
+    align-items: flex-start;
+    width: 65%;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 115.2px;
+    z-index: 1;
+    align-items: flex-start;
+    width: 65%;
+}
+
+.categoryL {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 57.6px;
+}
+
+.categoryR {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 19.2px;
+}
+
+.contentL1 {
+    color: rgb(250, 194, 125);
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.contentL2 {
+    color: rgb(36, 36, 36);
+    font-size: 34.56px;
+    padding-top: 19.2px;
+    line-height: 48px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.contentR1 {
+    color: rgb(250, 194, 125);
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.contentR2 {
+    color: rgb(36, 36, 36);
+    font-size: 34.56px;
+    padding-top: 19.2px;
+    line-height: 48px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.text2L {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 57.6px;
+}
+
+.contentL3 {
+    color: rgb(250, 194, 125);
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.contentL4 {
+    color: rgb(36, 36, 36);
+    font-size: 34.56px;
+    padding-top: 19.2px;
+    line-height: 48px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.text2R {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 19.2px;
+}
+
+.contentR3 {
+    color: rgb(250, 194, 125);
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.contentR4 {
+    color: rgb(36, 36, 36);
+    font-size: 34.56px;
+    padding-top: 19.2px;
+    line-height: 48px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.text3L {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-right: 57.6px;
+}
+
+.contentL5 {
+    color: rgb(250, 194, 125);
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.contentL6 {
+    color: rgb(36, 36, 36);
+    font-size: 34.56px;
+    padding-top: 19.2px;
+    line-height: 48px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.lion3 {
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    right: 3%;
+    z-index: -1;
+}
+
+.Vector37 {
+    height: 22%;
+    width: 15%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.Ellipse66 {
+    height: 8%;
+    width: 4.7%;
+    position: absolute;
+    top: 7%;
+    right: 20%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding-bottom: 232px;
+        margin-top: 40rem;
+    }
+
+    .card {
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-top: 56px;
+    }
+
+    .text {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .card1 {
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    .card2 {
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    .card3 {
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    .categoryL {
+        padding-right: 10px;
+    }
+
+    .categoryR {
+        padding-left: 10px;
+    }
+
+    .contentL1 {
+        font-size: 15px;
+    }
+
+    .contentL2 {
+        font-size: 12px;
+        padding-top: 9px;
+        line-height: 18px;
+    }
+
+    .contentR1 {
+        font-size: 15px;
+    }
+
+    .contentR2 {
+        font-size: 12px;
+        padding-top: 9px;
+        line-height: 18px;
+    }
+
+    .text2L {
+        padding-right: 11px;
+    }
+
+    .contentL3 {
+        font-size: 15px;
+    }
+
+    .contentL4 {
+        font-size: 12px;
+        padding-top: 9px;
+        line-height: 18px;
+    }
+
+    .text2R {
+        padding-left: 11px;
+    }
+
+    .contentR3 {
+        font-size: 15px;
+    }
+
+    .contentR4 {
+        font-size: 12px;
+        padding-top: 9px;
+        line-height: 18px;
+    }
+
+    .text3L {
+        padding-right: 11px;
+    }
+
+    .contentL5 {
+        font-size: 15px;
+    }
+
+    .contentL6 {
+        font-size: 12px;
+        padding-top: 9px;
+        line-height: 18px;
+    }
+
+    .lion3 {
+        top: 55%;
+        right: 0%;
+        width: 60%;
+        height: 55%;
+    }
+
+    .Ellipse66 {
+        display: none;
+    }
+
+    .Vector37 {
+        top: -25%;
+        height: 20%;
+        width: 33%;
+        right: -10%;
+    }
+}

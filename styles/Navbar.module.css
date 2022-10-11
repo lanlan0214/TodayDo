@@ -1,0 +1,157 @@
+.container {
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgba(250, 194, 125, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+    z-index: 4;
+    background-color: rgba(250, 194, 125, 0.87);
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 40px;
+}
+
+.left {
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/* transition: all 1s ease; 延遲往上 */
+
+
+
+.img {
+    width: 3.5rem;
+    height: 3.5rem;
+    position: relative;
+    margin-right: 2%;
+}
+
+
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text1 {
+    color: rgb(255, 255, 255);
+    font-size: 23.04px;
+    margin-left: 86.4px;
+    font-family: "Noto Sans TC", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.discord {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    margin-right: 17rem;
+}
+
+.appleicon {
+    width: 5.3rem;
+    height: 5.3rem;
+    position: relative;
+    mix-blend-mode: multiply;
+    /* 背透明 */
+}
+
+.applestroe {
+    width: 5.3rem;
+    height: 5.3rem;
+    position: relative;
+    mix-blend-mode: multiply;
+    /* 背透明 */
+}
+
+.hamburger {
+    display: none;
+}
+
+.memu {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        height: 2.7rem;
+        padding-left: 10px;
+    }
+
+    .left {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .hamburger {
+        width: 25px;
+        height: 20px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .line {
+        width: 100%;
+        height: 3px;
+        background-color: black;
+    }
+
+    .memu {
+        position: fixed;
+        height: calc(100vh - 2.5rem);
+        width: 60vw;
+        background-color: white;
+        top: 2.5rem;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        color: rgb(231, 116, 66);
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 999;
+        right: 0;
+        transition: all 1s ease;
+    }
+
+    .memuappleicon {
+        width: 3rem;
+        height: 3rem;
+        position: relative;
+        mix-blend-mode: multiply;
+        /* 背透明 */
+    }
+    
+    .memuapplestroe {
+        width: 3rem;
+        height: 3rem;
+        position: relative;
+        mix-blend-mode: multiply;
+        /* 背透明 */
+    }
+}
