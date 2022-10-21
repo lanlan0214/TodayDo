@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    padding-bottom: 192px;
+    padding-bottom: 13vmax;
     margin-top: 13rem;
 }
 
@@ -16,7 +16,7 @@
 .text {
     color: rgb(231, 116, 66);
     font-weight: 800;
-    font-size: 67.2px;
+    font-size: 3.5vmax;
     text-align: left;
     font-family: "Noto Sans TC", sans-serif;
 }
@@ -62,14 +62,14 @@
 
 .contentL1 {
     color: rgb(250, 194, 125);
-    font-size: 48px;
+    font-size: 2.5vmax;
     font-weight: bold;
     font-family: "Noto Sans TC", sans-serif;
 }
 
 .contentL2 {
     color: rgb(36, 36, 36);
-    font-size: 34.56px;
+    font-size: 1.7vmax;
     padding-top: 19.2px;
     line-height: 48px;
     font-family: "Noto Sans TC", sans-serif;
@@ -77,14 +77,14 @@
 
 .contentR1 {
     color: rgb(250, 194, 125);
-    font-size: 48px;
+    font-size: 2.5vmax;
     font-weight: bold;
     font-family: "Noto Sans TC", sans-serif;
 }
 
 .contentR2 {
     color: rgb(36, 36, 36);
-    font-size: 34.56px;
+    font-size: 1.8vmax;
     padding-top: 19.2px;
     line-height: 48px;
     font-family: "Noto Sans TC", sans-serif;
@@ -99,14 +99,14 @@
 
 .contentL3 {
     color: rgb(250, 194, 125);
-    font-size: 48px;
+    font-size: 2.5vmax;
     font-weight: bold;
     font-family: "Noto Sans TC", sans-serif;
 }
 
 .contentL4 {
     color: rgb(36, 36, 36);
-    font-size: 34.56px;
+    font-size: 1.8vmax;
     padding-top: 19.2px;
     line-height: 48px;
     font-family: "Noto Sans TC", sans-serif;
@@ -121,14 +121,14 @@
 
 .contentR3 {
     color: rgb(250, 194, 125);
-    font-size: 48px;
+    font-size: 2.5vmax;
     font-weight: bold;
     font-family: "Noto Sans TC", sans-serif;
 }
 
 .contentR4 {
     color: rgb(36, 36, 36);
-    font-size: 34.56px;
+    font-size: 1.8vmax;
     padding-top: 19.2px;
     line-height: 48px;
     font-family: "Noto Sans TC", sans-serif;
@@ -143,14 +143,14 @@
 
 .contentL5 {
     color: rgb(250, 194, 125);
-    font-size: 48px;
+    font-size: 2.5vmax;
     font-weight: bold;
     font-family: "Noto Sans TC", sans-serif;
 }
 
 .contentL6 {
     color: rgb(36, 36, 36);
-    font-size: 34.56px;
+    font-size: 1.8vmax;
     padding-top: 19.2px;
     line-height: 48px;
     font-family: "Noto Sans TC", sans-serif;
@@ -183,10 +183,231 @@
     z-index: -1;
 }
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 1680px) and (max-height : 1050px) {
     .container {
-        padding-bottom: 232px;
-        margin-top: 40rem;
+        padding-bottom: 10vmax;
+    }
+
+    .lion3 {
+        width: 40%;
+        height: 65%;
+    }
+
+    .card1 {
+        margin-top: 4vmax;
+    }
+
+    .card2 {
+        margin-top: 5vmax;
+    }
+
+    .card3 {
+        margin-top: 5vmax;
+    }
+
+    .contentL2 {
+        padding-top: 1vmax;
+        line-height: 2vmax;
+    }
+
+    .contentR2 {
+        padding-top: 1vmax;
+        line-height: 2vmax;
+    }
+
+    .contentL4 {
+        padding-top: 1vmax;
+        line-height: 2vmax;
+    }
+
+    .contentR4 {
+        padding-top: 1vmax;
+        line-height: 2vmax;
+    }
+
+    .contentL6 {
+        padding-top: 1vmax;
+        line-height: 2vmax;
+    }
+}
+
+
+@media screen and (max-width: 1440px) and (max-height : 900px) {
+    .container {
+        padding-bottom: 10vmax;
+        margin-top: 9rem;
+    }
+
+    .card {
+        padding-right: 124px;
+        padding-left: 124px;
+    }
+
+    .card1 {
+        margin-top: 5.5vmax;
+    }
+
+    .card2 {
+        margin-top: 6vmax;
+    }
+
+    .card3 {
+        margin-top: 6vmax;
+    }
+
+    .contentL2 {
+        padding-top: 1vmax;
+        line-height: 2.5vmax;
+    }
+
+    .contentR2 {
+        padding-top: 1vmax;
+        line-height: 2.5vmax;
+    }
+
+    .contentL4 {
+        padding-top: 1vmax;
+        line-height: 2.5vmax;
+    }
+
+    .contentR4 {
+        padding-top: 1vmax;
+        line-height: 2.5vmax;
+    }
+
+    .contentL6 {
+        padding-top: 1vmax;
+        line-height: 2.5vmax;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 768px) {
+    .container {
+        margin-top: 130vmax;
+        padding-bottom: 65vmax;
+    }
+
+    .card {
+        padding-left: 9vmax;
+        padding-right: 9vmax;
+        margin-top: 15vmax;
+    }
+
+    .text {
+        font-size: 7vmax;
+        text-align: center;
+    }
+
+    .card1 {
+        margin-top: 10vmax;
+        width: 100%;
+    }
+
+    .card2 {
+        margin-top: 10vmax;
+        width: 100%;
+    }
+
+    .card3 {
+        margin-top: 10vmax;
+        width: 100%;
+    }
+
+    .categoryL {
+        padding-right: 3vmax;
+    }
+
+    .categoryR {
+        padding-left: 3vmax;
+    }
+
+    .contentL1 {
+        font-size: 4vmax;
+    }
+
+    .contentL2 {
+        font-size: 3.2vmax;
+        padding-top: 2.5vmax;
+        line-height: 5.3vmax;
+    }
+
+    .contentR1 {
+        font-size: 4vmax;
+    }
+
+    .contentR2 {
+        font-size: 3.2vmax;
+        padding-top: 2.5vmax;
+        line-height: 5.3vmax;
+    }
+
+    .text2L {
+        padding-right: 3vmax;
+    }
+
+    .contentL3 {
+        font-size: 4vmax;
+    }
+
+    .contentL4 {
+        font-size: 3.2vmax;
+        padding-top: 2.5vmax;
+        line-height: 5.3vmax;
+    }
+
+    .text2R {
+        padding-left: 3vmax;
+    }
+
+    .contentR3 {
+        font-size: 4vmax;
+    }
+
+    .contentR4 {
+        font-size: 3.2vmax;
+        padding-top: 2.5vmax;
+        line-height: 5.3vmax;
+    }
+
+    .text3L {
+        padding-right: 3vmax;
+    }
+
+    .contentL5 {
+        font-size: 4vmax;
+    }
+
+    .contentL6 {
+        font-size: 3.2vmax;
+        padding-top: 2.5vmax;
+        line-height: 5.3vmax;
+    }
+
+    .lion3 {
+        height: 50%;
+        width: 80%;
+        top: 50%;
+        right: -12%;
+    }
+
+    .Vector37 {
+        top: -23%;
+        height: 19%;
+        width: 32%;
+        right: -5%;
+    }
+
+    .Ellipse66 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 480px) and (max-height : 667px) {
+    .container {
+        margin-top: 55vmax;
+        padding-bottom: 40vmax;
     }
 
     .card {
@@ -286,10 +507,10 @@
     }
 
     .lion3 {
-        top: 55%;
-        right: 0%;
-        width: 60%;
-        height: 55%;
+        height: 60%;
+        width: 90%;
+        top: 40%;
+        right: -13%;
     }
 
     .Ellipse66 {
@@ -297,9 +518,9 @@
     }
 
     .Vector37 {
-        top: -25%;
-        height: 20%;
+        height: 22%;
         width: 33%;
-        right: -10%;
+        top: -25%;
+        right: 0%;
     }
 }

@@ -58,13 +58,13 @@ const Five = () => {
                 </div>
             </div>
             <div className={styles.lion3}>
-                <Image src="/img/lion3.png" alt='' layout='fill' objectFit='cover' />
+                <Image src="/img/lion3.png" alt='' layout='fill' objectFit='fill' />
             </div>
             <div className={styles.Vector37}>
-                <Image src="/img/Vector 37.png" alt='' layout='fill' objectFit='cover' />
+                <Image src="/img/Vector 37.png" alt='' layout='fill' objectFit='fill' />
             </div>
             <div className={styles.Ellipse66}>
-                <Image src="/img/Ellipse 66.png" alt='' layout='fill' objectFit='cover' />
+                <Image src="/img/Ellipse 66.png" alt='' layout='fill' objectFit='fill' />
             </div>
         </div>
     )

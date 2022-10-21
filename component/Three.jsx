@@ -14,7 +14,7 @@ const Three = () => {
                     <div className={styles.cardtext12}>利用 App 迅速安排待辦事項，
                         開啟每個有朝氣的日子！</div>
                     <div className={styles.TodayDo}>
-                        <Image src="/img/Today Do.png" alt='' layout='fill' objectFit='cover' />
+                        <Image src="/img/Today Do.png" alt='' layout='fill' objectFit='fill' />
                     </div>
                 </div>
                 <div className={styles.text2} >
@@ -22,12 +22,12 @@ const Three = () => {
                     <div className={styles.cardtext12}>每天想做的零碎小事項，
                         就讓 Memo 幫你記錄。</div>
                     <div className={styles.Memo}>
-                        <Image src="/img/Memo.png" alt='' layout='fill' objectFit='cover' />
+                        <Image src="/img/Memo.png" alt='' layout='fill' objectFit='fill' />
                     </div>
                 </div>
             </div>
             <div className={styles.Group51}>
-                <Image src="/img/Group 51.png" alt='' layout='fill' objectFit='cover' />
+                <Image src="/img/Group 51.png" alt='' layout='fill' objectFit='fill' />
             </div>
         </div>
     )

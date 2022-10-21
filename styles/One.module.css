@@ -39,23 +39,6 @@
     font-family: "Noto Sans TC", sans-serif;
 }
 
-
-.Group10 {
-    width: 29.2%;
-    height: 56%;
-    position: absolute;
-    top: 50%;
-    right: 17%
-}
-
-.Group8 {
-    width: 6%;
-    height: 12%;
-    position: absolute;
-    top: 50%;
-    right: 10%
-}
-
 .text2 {
     color: rgb(255, 255, 255);
     margin-top: 15px;
@@ -78,6 +61,22 @@
     position: absolute;
     padding-left: 192px;
     top: 50%;
+}
+
+.Group10 {
+    width: 29.2%;
+    height: 56%;
+    position: absolute;
+    top: 50%;
+    right: 17%
+}
+
+.Group8 {
+    width: 6%;
+    height: 12%;
+    position: absolute;
+    top: 50%;
+    right: 10%
 }
 
 .Group6 {

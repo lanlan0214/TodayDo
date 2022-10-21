@@ -1,13 +1,13 @@
 .container {
     position: relative;
-    padding-bottom: 249.6px;
+    padding-bottom: 15vmax;
 }
 
 .card {
     display: flex;
     flex-direction: row;
-    padding-right: 192px;
-    padding-left: 192px;
+    padding-right: 10vmax;
+    padding-left: 10vmax;
     padding-top: 76.8px;
     width: 70%;
     align-items: flex-start;
@@ -36,16 +36,16 @@
 
 .cardtext1 {
     color: rgb(231, 116, 66);
-    font-size: 67.2px;
+    font-size: 3.5vmax;
     font-weight: bold;
     font-family: Montserrat, sans-serif;
 }
 
 .cardtext12 {
     color: rgb(36, 36, 36);
-    font-size: 32.64px;
+    font-size: 1.7vmax;
     padding-top: 19.2px;
-    line-height: 48px;
+    line-height: 2.2vmax;
     font-family: "Noto Sans TC", sans-serif;
 }
 
@@ -77,14 +77,66 @@
     right: 0;
 }
 
-@media screen and (max-width: 480px) {
 
-    .container {}
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+    .container {
+        padding-bottom: 50vmax;
+    }
 
     .card {
-        padding-right: 45px;
-        padding-left: 45px;
-        padding-top: 22px;
+        padding-top: 50vmax;
+        width: 100%;
+    }
+
+    .text1 {
+        padding-right: 1vmax;
+    }
+
+    .text2 {
+        padding-left: 1vmax;
+    }
+
+    .cardtext1 {
+        font-size: 6.6vmax;
+    }
+
+    .cardtext12 {
+        font-size: 3.8vmax;
+        padding-top: 2vmax;
+        line-height: 5.3vmax;
+    }
+
+    .TodayDo {
+        right: 10%;
+        width: 80%;
+        height: 25%;
+    }
+
+    .Memo {
+        right: 10%;
+        width: 80%;
+        height: 25%;
+    }
+
+    .Group51 {
+        width: 50%;
+        height: 40%;
+        top: 90%;
+        right: 0;
+    }
+}
+
+
+@media screen and (max-width: 480px) and (max-height : 667px) {
+
+    .container {
+        padding-bottom: 65vmax;
+    }
+
+    .card {
+        padding-right: 43px;
+        padding-left: 43px;
+        padding-top: 75vmax;
         width: 100%;
     }
 
@@ -108,25 +160,25 @@
 
     .TodayDo {
         width: 80%;
-        height: 30%;
+        height: 10%;
         position: absolute;
-        top: 40%;
+        top: 60%;
         right: 10%;
     }
 
     .Memo {
         width: 80%;
-        height: 30%;
+        height: 10%;
         position: absolute;
-        top: 40%;
+        top: 60%;
         right: 10%;
     }
 
     .Group51 {
-        width: 70%;
-        height: 70%;
+        width: 80%;
+        height: 23%;
         position: absolute;
-        top: 90%;
+        top: 75%;
         right: 0%;
     }
 }

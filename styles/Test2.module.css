@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 6.5rem);
+    display: flex;
+    position: relative;
+}
+
+.background {
+    width: 97%;
+    height: 102%;
+    position: absolute;
+    z-index: -2;
+    top: 0;
+}
