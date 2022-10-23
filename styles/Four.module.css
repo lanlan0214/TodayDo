@@ -24,11 +24,11 @@
 
 
 .Group878 {
-    height: 11%;
-    width: 63%;
+    height: 10%;
+    width: 57%;
     position: absolute;
     top: 12%;
-    left: 18%;
+    left: 20%;
 }
 
 .Group11 {
@@ -36,8 +36,8 @@
 }
 
 .新建任務 {
-    height: 30%;
-    width: 60%;
+    height: 28%;
+    width: 55%;
     position: absolute;
     top: 10vmax;
     left: 39%;
@@ -83,11 +83,11 @@
 }
 
 .Group882 {
-    height: 45%;
-    width: 50%;
+    height: 43%;
+    width: 48%;
     position: absolute;
-    top: 60%;
-    right: 3%;
+    top: 62%;
+    right: 5%;
 }
 
 
@@ -95,6 +95,24 @@
     .lion2 {
         height: 43%;
         width: 48%;
+    }
+
+    .Group878 {
+        height: 10%;
+        width: 58%;
+    }
+
+    .新建任務 {
+        height: 28%;
+        width: 55%;
+        left: 37%;
+        top: 10vmax;
+    }
+
+    .Group882 {
+        height: 40%;
+        width: 50%;
+        top: 62%;
     }
 }
 
