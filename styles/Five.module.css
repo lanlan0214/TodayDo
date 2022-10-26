@@ -157,10 +157,11 @@
 }
 
 .lion3 {
-    height: 60%;
-    width: 40%;
+    height: auto;
+    width: 42%;
     position: absolute;
     top: 35%;
+    aspect-ratio: 700 / 657;
     right: 3%;
     z-index: -1;
 }
@@ -191,7 +192,6 @@
 
     .lion3 {
         width: 40%;
-        height: 65%;
     }
 
     .card1 {
@@ -385,7 +385,6 @@
     }
 
     .lion3 {
-        height: 50%;
         width: 80%;
         top: 50%;
         right: -12%;
@@ -507,9 +506,8 @@
     }
 
     .lion3 {
-        height: 60%;
         width: 90%;
-        top: 40%;
+        top: 45%;
         right: -13%;
     }
 

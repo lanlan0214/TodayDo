@@ -54,8 +54,9 @@
 
 .TodayDo {
     width: 50%;
-    height: 50%;
+    height: auto;
     position: absolute;
+    aspect-ratio: 388/137;
     top: 65%;
     right: 40%;
 }
@@ -63,16 +64,18 @@
 
 .Memo {
     width: 50%;
-    height: 50%;
+    height: auto;
     position: absolute;
+    aspect-ratio: 388/137;
     top: 65%;
     right: 40%;
 }
 
 .Group51 {
     width: 32%;
-    height: 100%;
+    height: auto;
     position: absolute;
+    aspect-ratio: 509 / 473;
     top: 65%;
     right: 0;
 }
@@ -109,18 +112,15 @@
     .TodayDo {
         right: 10%;
         width: 80%;
-        height: 25%;
     }
 
     .Memo {
         right: 10%;
         width: 80%;
-        height: 25%;
     }
 
     .Group51 {
         width: 50%;
-        height: 40%;
         top: 90%;
         right: 0;
     }
@@ -160,7 +160,6 @@
 
     .TodayDo {
         width: 80%;
-        height: 10%;
         position: absolute;
         top: 60%;
         right: 10%;
@@ -168,7 +167,6 @@
 
     .Memo {
         width: 80%;
-        height: 10%;
         position: absolute;
         top: 60%;
         right: 10%;
@@ -176,7 +174,6 @@
 
     .Group51 {
         width: 80%;
-        height: 23%;
         position: absolute;
         top: 75%;
         right: 0%;

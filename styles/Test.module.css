@@ -33,10 +33,11 @@
 }
 
 .Group8 {
-    width: 6%;
-    height: 12%;
+    width: 7vmax;
+    height: auto;
     position: absolute;
     top: 50%;
+    aspect-ratio: 1/1;
     right: 10%
 }
 
@@ -242,8 +243,7 @@
     }
 
     .Group8 {
-        width: 13%;
-        height: 18%;
+        width: 12vmax;
         top: 80%;
     }
 
@@ -359,7 +359,6 @@
 
     .Group8 {
         width: 12%;
-        height: 8%;
         top: 39%;
         right: 8%;
     }

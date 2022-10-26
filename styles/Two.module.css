@@ -35,17 +35,19 @@
 }
 
 .Group875 {
-    width: 39vmax;
-    height: 45vmax;
+    width: 40vmax;
+    height: auto;
     position: absolute;
+    aspect-ratio: 570 / 623;
     top: 24%;
     left: 14%;
 }
 
 .Group874 {
     width: 50%;
-    height: 59vmax;
+    height: auto;
     position: absolute;
+    aspect-ratio: 759 / 899;
     top: 0%;
     right: 8%;
 }
@@ -86,7 +88,6 @@
     }
 
     .Group875 {
-        height: 42vmax;
         top: 30%;
     }
 
@@ -127,14 +128,12 @@
     .Group875 {
         opacity: 0.5;
         width: 72vmax;
-        height: 80vmax;
         left: 78%;
         top: 14%;
     }
 
     .Group874 {
-        width: 90%;
-        height: 90vmax;
+        width: 85%;
         top: 40%;
         right: 6%;
     }
@@ -184,14 +183,12 @@
     }
 
     .Group875 {
-        width: 50vmax;
-        height: 50vmax;
+        width: 48vmax;
         top: 45%;
     }
 
     .Group874 {
         width: 90%;
-        height: 55vmax;
         top: 120%;
     }
 
