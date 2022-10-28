@@ -93,7 +93,7 @@
 }
 
 
-@media screen and (max-width: 1680px) and (max-height : 1050px) {
+@media screen and (max-width: 1680px) {
     .lion2 {
         width: 48%;
     }
@@ -116,7 +116,7 @@
     }
 }
 
-@media screen and (max-width: 1440px) and (max-height : 900px) {
+@media screen and (max-width: 1440px) {
     .container {
         padding-left: 120px;
         padding-right: 120px;
@@ -126,7 +126,7 @@
 }
 
 
-@media screen and (max-width: 1024px) and (max-height: 768px) {
+@media screen and (max-width: 1024px) {
     .container {
         margin-top: 40vmax;
     }
@@ -195,8 +195,59 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
-@media screen and (max-width: 480px) and (max-height : 667px) {
+    .Group11 {
+        aspect-ratio: 236 /61;
+        height: auto;
+        top: 10%;
+    }
+
+    .新建任務 {
+        aspect-ratio: 823/432;
+        height: auto;
+        width: 90%;
+        left: 5%;
+        top: 38vmax;
+    }
+
+    .lion2 {
+        aspect-ratio: 640/601;
+        height: auto;
+        top: 35%;
+    }
+
+    .text2 {
+        font-size: 6vmax;
+        margin-top: 30vmax;
+        line-height: 8.5vmax;
+        padding-left: 0vmax;
+        padding-right: 0vmax;
+        position: relative;
+        width: 100%;
+        left: 0%;
+    }
+
+    .text3 {
+        font-size: 3.5vmax;
+        margin-top: 4.6vmax;
+        top: 70%;
+        left: 10%;
+    }
+
+    .Group882 {
+        top: 75%;
+        right: 5%;
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
     .container {
         height: 400px;
         padding-left: 36px;

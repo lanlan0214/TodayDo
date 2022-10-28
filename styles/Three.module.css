@@ -81,7 +81,7 @@
 }
 
 
-@media screen and (max-width: 1024px) and (max-height: 768px) {
+@media screen and (max-width: 1024px) {
     .container {
         padding-bottom: 50vmax;
     }
@@ -127,7 +127,7 @@
 }
 
 
-@media screen and (max-width: 480px) and (max-height : 667px) {
+@media screen and (max-width: 480px) {
 
     .container {
         padding-bottom: 65vmax;
@@ -177,5 +177,28 @@
         position: absolute;
         top: 75%;
         right: 0%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding-bottom: 75vmax;
+    }
+
+    .card {
+        padding-right: 43px;
+        padding-left: 43px;
+        padding-top: 85vmax;
+        width: 100%;
+    }
+
+    .cardtext1 {
+        font-size: 18px;
+    }
+
+    .cardtext12 {
+        font-size: 10px;
+        padding-top: 7.5px;
+        line-height: 19.5px
     }
 }
